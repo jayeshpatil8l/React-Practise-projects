@@ -1,0 +1,25 @@
+
+.root-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+
+}
+
+.first-container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.first-container input{
+    margin-left: 5px;
+}
+
+.labels-container{
+    display: flex;
+    justify-content: left;
+}

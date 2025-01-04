@@ -1,0 +1,12 @@
+.active{
+    color: yellow;
+}
+
+.inactive{
+    color: black;
+}
+
+.ratings{
+    justify-content: center;
+    display: flex;
+}
