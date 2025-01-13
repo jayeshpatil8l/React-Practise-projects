@@ -14,6 +14,7 @@ import Menu from './components/TreeView/menu'
 import menus from './components/TreeView/data'
 import ToggleTheme from './components/ToggleTheme/ToggleTheme'
 import QRCodeGenerator from './components/QRCodeGenerator/QRCodeGen'
+import ScrollIndicator from './components/Scroll-Indicator/ScrollIndicator'
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
 
       {/* <QRCodeGenerator/> */}
 
+      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"}/>
      
     </>
   )
